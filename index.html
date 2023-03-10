@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Portifólio Arthur</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+<header class="header">
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+   <input type="image" id="return" src="images/iconeprincipal.png" alt="icone">
+
+   <nav class="navbar">
+      <a href="#home" class="active">Sobre</a>
+      <a href="#about">Biografia</a>
+      <a href="#portfolio">Portflio</a>
+      <a href="#contact">Contato</a>
+   </nav>
+
+   <div class="siga meu">
+      <a href="#" class="fab fa-facebook-f"></a>
+      <a href="#" class="fab fa-instagram"></a>
+  
+   </div>
+
+</header>
+
+
+
+<section class="home" id="home">
+
+   <div class="image" data-aos="fade-right">
+      <img src="images/foto.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3 data-aos="fade-up">Arthur Biazoto</h3>
+      <span data-aos="fade-up">Modelo mirim</span>
+      <p data-aos="fade-up">Sou vencedor do Miss baby 2023 vilhena.</p>
+      <a data-aos="fade-up" href="#about" class="btn">Sobre mim</a>
+   </div>
+
+</section>
+
+
+<section class="about" id="about">
+
+   <h1 class="heading" data-aos="fade-up"> <span>Biografia</span> </h1>
+
+   <div class="biography">
+
+      <p data-aos="fade-up">Pouco sobre mim</p>
+
+      <div class="bio">
+         <h3 data-aos="zoom-in"> <span>name : </span> Arthur M & M Biazoto </h3>
+         <h3 data-aos="zoom-in"> <span>email : </span> arthurbiazoto@gmail.com </h3>
+         <h3 data-aos="zoom-in"> <span>endereço : </span> vilhena, Brazil</h3>
+         <h3 data-aos="zoom-in"> <span>Telefone : </span>+55(69)984279777 </h3>
+         <h3 data-aos="zoom-in"> <span>idade : </span> 4 anos </h3>
+         <h3 data-aos="zoom-in"> <span>natural de : </span> Rondonia </h3>
+      </div>
+
+      <a href="#" class="btn" data-aos="fade-up">arquivo</a>
+
+   </div>
+   
+   
+   </div>
+
+</section>
+
+
+
+<section class="portfolio" id="portfolio">
+
+   <h1 class="heading" data-aos="fade-up"> <span>Fotos</span> </h1>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/fotartur.png" alt="">
+       
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/foto1.png" alt="foto1">
+        
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/foto2.png" alt="foto2">
+         
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/foto3.png" alt="foto3">
+         
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/foto4.png" alt="foto4">
+        
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <img src="images/fo" alt="fotos">
+         
+      </div>
+
+   </div>
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+   <h1 class="heading" data-aos="fade-up"> <span>contato para testes</span> </h1>
+
+   <form action="" method="post">
+      <div class="flex">
+         <input data-aos="fade-right" type="text" name="name" placeholder="Sua agencia" class="box" required>
+         <input data-aos="fade-left" type="email" name="email" placeholder="email" class="box" required>
+      </div>
+      <input data-aos="fade-up" type="number" min="0" name="number" placeholder="Seu numero de telefone" class="box" required>
+      <textarea data-aos="fade-up" name="message" class="box" required placeholder="Sua mensagem" cols="30" rows="10"></textarea>
+      <input type="submit" data-aos="zoom-in" value="send message" name="send" class="btn">
+   </form>
+
+   <div class="box-container">
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-phone"></i>
+         <h3>Telefone</h3>
+         <p>(69)84279777</p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>arthurmendesmartinsbiazoto@gmail.com
+         </p>
+      </div>
+
+      <div class="box" data-aos="zoom-in">
+         <i class="fas fa-map-marker-alt"></i>
+         <h3>endereço</h3>
+         <p>vilhena, brasil- 76980-000</p>
+      </div>
+
+   </div>
+
+</section>
+
+
+<div class="credit"> &copy; copyright @ <?php echo date('Y'); ?> by <span>Developer vanessa borges</span> </div>
+
+<script src="js/script.js"></script>
+
+<!-- aos js link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+<script>
+
+   AOS.init({
+      duration:800,
+      delay:300
+   });
+
+</script>
+   
+</body>
+</html>
